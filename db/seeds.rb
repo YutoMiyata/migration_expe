@@ -8,4 +8,6 @@
 
 
 Article.create!(
+    title: "タイトル1",
+    content: "内容1"
  )
