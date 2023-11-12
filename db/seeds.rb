@@ -8,6 +8,4 @@
 
 
 Article.create!(
-    title: '',
-    content: '',
  )

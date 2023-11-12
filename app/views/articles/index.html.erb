@@ -1,14 +1,14 @@
 <h1>記事一覧</h1>
 
-<% @articles.each do |article| %>
-  <table>
+<table>
     <tr>
         <th>タイトル</th>
         <th>内容</th>
     </tr>
-    <tr>
-        <td><%= article.title %></td>
-        <td><%= article.content %></td>
-    </tr>
+    <% @articles.each do |article| %>
+        <tr>
+            <td><%= article.title %></td>
+            <td><%= article.content %></td>
+        </tr>
+    <% end %>
   </table>
-<% end %>
